@@ -1,0 +1,77 @@
+#wrapper { 
+
+    display: grid; 
+
+    grid-template-columns: 1fr 3fr 1fr; 
+
+    grid-template-areas: "logo header header" 
+
+                         "nav main main" 
+
+                         "nav ad1 ad2" 
+
+                         "footer footer footer"; 
+
+} 
+
+  
+
+div { 
+
+    border: 1px solid black; 
+    font-size: 32px;
+    background-color: cadetblue;
+} 
+
+  
+
+#logo { 
+
+    grid-area: logo; 
+
+} 
+
+#header { 
+
+    grid-area: header; 
+
+    text-align: center; 
+
+    font-size: 69px; 
+
+    color: green; 
+
+     
+
+} 
+
+#nav { 
+
+    grid-area: nav; 
+
+} 
+
+#main { 
+
+    grid-area: main; 
+
+} 
+
+#ad1 { 
+
+    grid-area: ad1; 
+
+} 
+
+#ad2 { 
+
+    grid-area: ad2; 
+
+} 
+
+#footer { 
+
+    grid-area: footer; 
+
+}
+
